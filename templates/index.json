@@ -1,0 +1,251 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "e19cc4cd-ab70-47dd-9575-cb14beb1fdb4": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "slide-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "e19cc4cd-ab70-47dd-9575-cb14beb1fdb4",
+        "slide-1"
+      ],
+      "settings": {
+        "activate_search_bar": false,
+        "search_bar_background": "#f5f5f5",
+        "search_bar_border": "rgba(0,0,0,0)",
+        "search_bar_style": "20px",
+        "section_height": "large",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "1663059588dc8a136b": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "f348ff2c-5aa0-48f7-9e66-ed5fdaa8b6b3": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify:\/\/collections\/brewing",
+            "title": "Brewing",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_H7LpM7": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify:\/\/collections\/bundles",
+            "title": "Bundles",
+            "svg_story_icon": ""
+          }
+        },
+        "4ab0fe92-36d2-4509-bc21-11521ede0657": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify:\/\/collections\/kaffee",
+            "title": "Kaffee",
+            "svg_story_icon": ""
+          }
+        },
+        "story_item_TAeAbU": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify:\/\/collections\/merch",
+            "title": "Merche",
+            "svg_story_icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "f348ff2c-5aa0-48f7-9e66-ed5fdaa8b6b3",
+        "story_item_H7LpM7",
+        "4ab0fe92-36d2-4509-bc21-11521ede0657",
+        "story_item_TAeAbU"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "#ffffff",
+        "stories_text_color": "#0d0d0d"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "bestseller",
+            "label": "",
+            "button_text": "Mehr entdecken",
+            "button_url": "shopify:\/\/collections\/bestseller"
+          }
+        }
+      },
+      "block_order": [
+        "collection-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Eure Bestseller",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c8717841-d1a6-4fa3-b1b9-945248ec478a": {
+      "type": "ed-icon-title-section",
+      "settings": {
+        "background_product_facts": "",
+        "background_box_product_facts": "",
+        "subheading": "",
+        "title": "",
+        "icon_in_row": "two_icons",
+        "title_position": "under_the_icon",
+        "custom_icon_1": "shopify:\/\/shop_images\/Group_12.png",
+        "custom_icon_width_1": 50,
+        "title_1": "Rein Natürlich",
+        "custom_icon_2": "shopify:\/\/shop_images\/Group_2362.png",
+        "custom_icon_width_2": 50,
+        "title_2": "Anti-Schwach-Garantie",
+        "custom_icon_3": "shopify:\/\/shop_images\/Vector.png",
+        "custom_icon_width_3": 50,
+        "title_3": "Schnelle Lieferung",
+        "custom_icon_4": "shopify:\/\/shop_images\/Group_13.png",
+        "custom_icon_width_4": 70,
+        "title_4": "Benefit",
+        "custom_icon_width_5": 20,
+        "title_5": "",
+        "custom_icon_width_6": 20,
+        "title_6": ""
+      }
+    },
+    "16630884481b6274c4": {
+      "type": "ed-image-with-text",
+      "blocks": {
+        "166308844894eb86a9-0": {
+          "type": "item",
+          "settings": {
+            "image_mobile": "shopify:\/\/shop_images\/Berserker-Coffee-Kaffee-Collection_800x_png.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Berserker Coffee Co.",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166308844894eb86a9-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "16630884756eac5fb5": {
+      "type": "ed-image-with-text",
+      "blocks": {
+        "16630884757349b90e-0": {
+          "type": "item",
+          "settings": {
+            "image_mobile": "shopify:\/\/shop_images\/Berserker-Coffee-Merch-Kollektion_800x_jpg.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Über uns",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16630884757349b90e-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "Jetzt 10% Rabatt sichern",
+        "content": "<p>Abonniere unseren Newsletter und erhalte 10% Rabatt für deine erste Bestellung!<\/p>",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "1663059588dc8a136b",
+    "featured-collections",
+    "c8717841-d1a6-4fa3-b1b9-945248ec478a",
+    "16630884481b6274c4",
+    "16630884756eac5fb5",
+    "newsletter"
+  ]
+}

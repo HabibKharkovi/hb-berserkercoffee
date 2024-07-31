@@ -1,0 +1,145 @@
+{
+  "sections": {
+    "e9a05958-85a6-499e-b5cc-f909a1c8bdfb": {
+      "type": "ed-story-icon-slider",
+      "blocks": {
+        "13f0ea2f-f97c-435b-a28e-17ea9bebcc85": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify:\/\/collections\/caps",
+            "title": "Caps",
+            "svg_story_icon": ""
+          }
+        },
+        "09ed5457-c096-4913-aa91-dcb4b0e42e8b": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify:\/\/collections\/jordan",
+            "title": "Jordan",
+            "svg_story_icon": ""
+          }
+        },
+        "7dcb39f1-ae5b-4e72-9ac6-330a1538ba88": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify:\/\/collections\/men",
+            "title": "Hoodies",
+            "svg_story_icon": ""
+          }
+        },
+        "d9ed17d9-486e-40d0-98f8-c6a993751317": {
+          "type": "story-item",
+          "settings": {
+            "link": "shopify:\/\/collections\/men",
+            "title": "Hoodies",
+            "svg_story_icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "13f0ea2f-f97c-435b-a28e-17ea9bebcc85",
+        "09ed5457-c096-4913-aa91-dcb4b0e42e8b",
+        "7dcb39f1-ae5b-4e72-9ac6-330a1538ba88",
+        "d9ed17d9-486e-40d0-98f8-c6a993751317"
+      ],
+      "settings": {
+        "section_story_icon_slider": "show_bubbles",
+        "stories_bg_color": "",
+        "stories_text_color": ""
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "settings": {
+        "show_collection_image": true,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "section_height": "small",
+        "text_width": "medium",
+        "image_text_color": "#ffffff",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 0,
+        "quick_links": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_sort_by": true,
+        "products_per_page": 8,
+        "mobile_products_per_row": "2",
+        "desktop_products_per_row": 4,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "open_first_filter_group": false,
+        "filter_position": "always_visible",
+        "show_model_view": false,
+        "checkfield_color": "#d3cec9",
+        "text_model_view": "Model View",
+        "model_view_image_order": 1,
+        "promotion_position": "top",
+        "promotion_height": "small"
+      }
+    },
+    "faq_LRGVRa": {
+      "type": "faq",
+      "blocks": {
+        "question_VJebYg": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "question_xLMpBK": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "question_aJAyW4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_VJebYg",
+        "question_xLMpBK",
+        "question_aJAyW4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "newsletter_c7rRGG": {
+      "type": "newsletter",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "Subscribe to our newsletter",
+        "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "e9a05958-85a6-499e-b5cc-f909a1c8bdfb",
+    "collection-banner",
+    "main",
+    "faq_LRGVRa",
+    "newsletter_c7rRGG"
+  ]
+}
