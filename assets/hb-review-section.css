@@ -1,0 +1,178 @@
+.hb_review_section svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.hb_review_section {
+    margin-bottom: 100px;
+}
+.hb_review_section .container {
+    position: relative;
+}
+.hb_review_section .hb-star-icon {
+    max-width: 12;
+}
+.hb_review_section .hb-review-grid {
+    background-color: var(--color-secondary);
+    border-radius: 25px;
+    padding: 21px 13px 20px;
+}
+.hb_review_section .hb-client-review {
+    margin-bottom: 9px;
+}
+
+.hb_review_section .hb-h3 {
+    font-family:var(--font-Alumni);
+    font-size: 20px;
+    font-weight: 400;
+    line-height:1;
+    margin: 0;
+    letter-spacing: 0;
+    color: var(--color-white);
+    margin-right: 8px;
+}
+.hb_review_section .hb-inner-h2 {
+    font-family: var( --font-norse);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var( --color-tertiary);
+    margin: 0 0 8px;
+}
+.hb_review_section .hb-p {
+    font-family: var(--font-Alumni);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.25;
+    letter-spacing: 0;
+    color: var(--color-white);
+    margin: 0;
+}
+.hb_review_section .hb-h2 {
+    text-align: center;
+    margin-bottom: 47px;
+}
+.hb_review_section .hb-tag {
+    font-family: var(--font-Alumni);
+    font-size: 20px;
+    font-weight: 300;
+    line-height:1;
+    letter-spacing: 0;
+    color: var(--color-white);
+    text-align: end;
+}
+.hb_review_section .hb-main-grid {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+.hb_review_section .swiper-wrapper {
+    height: auto;
+}
+.hb_review_section .swiper-button-prev:after,
+.hb_review_section .swiper-button-next:after {
+    content: unset;
+}
+.hb_review_section .swiper-button-disabled .icon-1 {
+    display: none;
+}
+.hb_review_section .swiper-button-next.swiper-button-disabled  .icon-2 ,
+.hb_review_section .swiper-button-prev.swiper-button-disabled  .icon-2 {
+    display: block;
+    opacity: 1;
+}
+.hb_review_section .swiper-button-disabled {
+    opacity:1;
+}
+.hb_review_section .swiper-button-disabled .icon-2 {
+     display: block;
+}
+.hb_review_section .swiper-button-next .icon-2 ,
+.hb_review_section .swiper-button-prev .icon-2 {
+    transform: rotate(180deg);
+    display: none;
+}
+.hb_review_section .swiper-button-next {
+    transform: rotate(180deg);
+}
+.hb_review_section .hb_rating--title {
+    font-family:var(--font-Alumni);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1;
+    color: #ffffff;
+    margin: 0;
+    text-transform: inherit;
+}
+.hb_review_section .hb_rating--title.hb_rating--text {
+    font-weight: 300;
+}
+@media screen and (min-width:1662px) {
+    .hb_review_section .swiper-button-prev {
+        left: -30px;
+        right: auto;
+    }
+    .hb_review_section .swiper-button-next {
+        right: -30px;
+        left: auto;
+    }
+}
+@media screen and (max-width:1662px) {
+    .hb_review_section .swiper-button-prev {
+        left:0;
+        right: auto;
+    }
+    .hb_review_section .swiper-button-next {
+        right:0;
+        left: auto;
+    }
+}
+.hb_review_section .swiper-button-next,
+.hb_review_section .swiper-button-prev {
+    position: absolute;
+    top: 65%;
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+}
+@media screen and (max-width:1279px) {
+    .hb_review_section .swiper-button-next,
+    .hb_review_section .swiper-button-prev {
+        top: 55%;
+    }
+}
+@media screen and (max-width:767px) {
+    .hb_review_section .swiper-button-next,
+    .hb_review_section .swiper-button-prev {
+        position: unset;
+        margin: 0 9px;
+    }
+    .hb_review_section .hb-main-grid {
+        margin-bottom: 7px;
+    }
+    .hb-arrow-grid {
+        display: flex;
+        justify-content: center;
+    }
+    .hb_review_section {
+        margin-bottom: 60px;
+    }
+    .hb_review_section .hb-h2 {
+        line-height: 1.2;
+        margin-bottom: 9px;
+    }
+    .hb_review_section .hb_rating {
+        flex-wrap: wrap;
+        margin-top: 16px;
+    }
+    .hb_review_section .hb_star-icon {
+        width: 12px;
+        height: 12px;
+    }
+    .hb_review_section .hb-client-review {
+        height: 20px;
+    }
+    .hb_review_section .hb-review-grid {
+        border-radius: 10px;
+    }
+}

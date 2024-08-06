@@ -1,0 +1,131 @@
+.shopify-section--announcement-bar {
+    position: relative !important;
+    z-index: 1 !important;
+}
+.hb_announcement_bar.announcement-bar {
+    padding: 0;
+}
+.hb_announcement_bar .announcement-bar__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 7px 0;
+}
+.hb_announcement_bar .wrapper {
+    display: flex;
+    justify-content: end;
+    max-width: 90%;
+    margin-left: auto;
+}
+.hb_announcement_bar .widget-wrapper  strong.keyword {
+    letter-spacing: 0;
+    font-family: var(--font-Alumni);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.12;
+    color: var(--color-white);
+}
+.hb_announcement_bar .js-reviewStarHeader,
+.hb_announcement_bar .ed-reviews-amount {
+    letter-spacing: 0;
+    font-family: var(--font-Alumni);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 0.98;
+    color: var(--color-white);
+}
+.hb_announcement_bar .ed-ab-bar-text-container svg {
+    width: 32px;
+    height: fit-content;
+    margin-right: 10px;
+}
+.hb_announcement_bar .ed-announcement-bar__message p {
+    letter-spacing: 0;
+    font-family: var(--font-Alumni);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.12;
+    color: var(--color-white);
+    margin: 0 10px 0 0;
+}
+.hb_announcement_bar .ed-announcement-bar__message p:last-child {
+    margin: 0;
+}
+.hb_announcement_bar .ed-announcement-bar__message {
+    padding: 0;
+}
+.hb_announcement_bar .announcement-bar__item {
+    height: 100% !important;
+    margin: 0;
+}
+.hb_announcement_bar .hb-p {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:1199px) {
+    .hb_announcement_bar .wrapper {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:990px) {
+    .hb_announcement_bar .ed-ab-bar-text-container svg {
+        display: none;
+    }
+    .hb_announcement_bar .ed-ab-bar-text-container {
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .hb_announcement_bar .wrapper {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .hb_announcement_bar.announcement-bar {
+        padding: 0 !important;
+    }
+    .hb_announcement_bar .text-banner-widget {
+        border-bottom: 1px solid #ffffff;
+        padding: 5px 15px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .hb_announcement_bar .announcement-bar__list  {
+        flex: 100% !important;
+        flex-direction: column;
+    }
+    .hb_announcement_bar .container {
+        padding: 0 !important;
+    }
+    .hb_announcement_bar .ed-announcement-bar__message {
+        padding: 5px 15px !important;
+    }
+    .hb_announcement_bar announcement-bar-item:not(.order-mobile-1) {
+        flex: fit-content !important;
+        max-width: 100%;
+        width: 100%;
+    }
+    .hb_announcement_bar .hb-p {
+      justify-content: space-between;
+      width: 100%;
+    }
+    .hb_announcement_bar .hb-p p:nth-child(2) {
+        display: none;
+    }
+    .hb_announcement_bar .announcement-bar__list {
+        padding: 0;
+    }
+    .hb_review_section .swiper-button-next,
+    .hb_review_section .swiper-button-prev {
+        top: 55%;
+    }
+}
+@media screen and (max-width:767px) {
+    .hb_announcement_bar announcement-bar-item:not(.order-mobile-1) { 
+        flex:fit-content!important;
+    }
+    .hb_announcement_bar .js-reviewStarHeader .fa.fa-star {
+        font-size: 12px;
+    }
+}

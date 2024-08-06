@@ -1,0 +1,193 @@
+.hb_newsletter {
+    padding-block:0 43px;
+}
+.hb_newsletter .hb-grid {
+    padding: 12.5px 20px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+.hb_newsletter .border-svg {
+    position: absolute;
+}
+.hb_newsletter .border-svg.right {
+    right: 0;
+    top: 0;
+}
+.hb_newsletter .border-svg.left {
+    left: 0;
+    bottom: 0;
+}
+.hb_newsletter .hb-wrapper {
+    padding-block: 29px 27px;
+    background-color: var(--color-secondary);
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+.hb_newsletter .hb-bg-svg {
+    position: absolute;
+}
+.hb_newsletter .hb-bg-svg svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.hb_newsletter .hb-bg-svg-top {
+    max-width: 390px;
+    top: 0;
+    right: 0;
+}
+.hb_newsletter .hb-bg-svg-right {
+    max-width: 598px;
+    right: 0;
+    bottom: 0;
+    margin-right: calc(50% - 645px);
+}
+.hb_newsletter .hb-bg-svg-left {
+    max-width: 598px;
+    left: 0;
+    bottom: 0;
+    margin-left: calc(50% - 760px);
+}
+.hb_newsletter .hb-content {
+    max-width: 963px;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+}
+.hb_newsletter .hb-text {
+    margin-bottom: 40px;
+}
+.hb_newsletter .hb-h2 {
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 7px;
+}
+.hb_newsletter .hb-p {
+    font-weight: 400;
+    text-align: center;
+    padding-inline: 30px;
+}
+.hb_newsletter .input-form {
+    max-width: 545px;
+    margin: 0 auto;
+}
+.hb_newsletter .hb-input-wrapper {
+    max-width: 334px;
+    flex: 334px;
+    margin-right: 27px;
+}
+.hb_newsletter .hb-input-wrapper input[type="email"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: var(--font-Alumni);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: left;
+    padding: 10px 22px;
+}
+.hb_newsletter .hb-input-wrapper input[type="email"]::placeholder {
+    color: var(--color-white);
+}
+.hb_newsletter .hb-mobile-border {
+    display: none;
+}
+.hb_newsletter .hb-btn {
+    background-color: #fdfae8;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid #E0A872;
+}
+.hb_newsletter .form__banner {
+    margin-top: 10px;
+    line-height: 1.3;
+}
+
+@media screen and (max-width:1279px) {
+    .hb_newsletter .hb-content {
+        max-width: 763px;
+    }
+    .hb_newsletter .hb-text {
+        margin-bottom: 24px;
+    }
+    .hb_newsletter .hb-h2 {
+        font-size: 48px;
+    }
+    .hb_newsletter .hb_small_p {
+        font-size: 20px;
+    }
+    .hb_newsletter .hb-input-wrapper input[type=email] {
+        padding: 6px 22px;
+    }
+    .hb_newsletter .hb-wrapper {
+        padding-block: 14px 22px;
+    }
+    .hb_newsletter .hb-bg-svg-right,
+    .hb_newsletter .hb-bg-svg-left {
+        bottom: -13px;
+    }
+}
+@media screen and (max-width:767px) {
+    .hb_newsletter .container {
+        padding: 0 8px !important;
+    }
+    .hb_newsletter .hb-bg-svg-top {
+        max-width: 341px;
+        padding-left: 17px;
+    }
+    .hb_newsletter .hb-bg-svg-right,
+    .hb_newsletter .hb-bg-svg-left {
+        display: none;
+    }
+    .hb_newsletter .hb-h2 {
+        font-size: 45px;
+        text-align: left;
+    }
+    .hb_newsletter .hb-p {
+        text-align: left;
+        padding-inline: 0;
+        line-height: 1.5;
+    }
+    .hb_newsletter .hb-wrapper {
+        padding: 47px 21px;
+        border-radius: 10px;
+    }
+    .hb_newsletter .hb-input-wrapper {
+        max-width: 197px;
+        flex: 197px;
+        margin-right: 4px;
+    }
+    .hb_newsletter .hb-btn.small {
+        min-width: 114px;
+        font-size: 20px;
+    }
+    .hb_newsletter .hb-grid {
+        padding: 8px 6px 7px 8px;
+        border-radius: 10px;
+    }
+    .hb_newsletter .hb-mobile-border {
+        display: block;
+    }
+    .hb_newsletter .hb-desktop-border {
+        display: none;
+    }
+    .hb_newsletter .hb-input-wrapper input[type=email] {
+        font-size: 20px;
+        line-height: 1;
+        padding: 9.5px 16px;
+    }
+    .hb_newsletter .hb-text {
+        margin-bottom: 38px;
+    }
+    .hb_newsletter {
+        padding-block: 0 53px;
+    }
+    .hb_newsletter .input-form {
+        max-width: 315px;
+    }
+}

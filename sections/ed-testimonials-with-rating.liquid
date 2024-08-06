@@ -1,7 +1,7 @@
 {%- comment -%}
-------------------------------------------------------------------------------------------------------------------------
-  CSS
-------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------
+    CSS
+  ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
 <style>
@@ -32,13 +32,12 @@
   #shopify-section-{{ section.id }} .ed-testimonial .testimonial-item {
     border-color: {{ section.settings.border_color }};
   }
-
 </style>
 
 {%- comment -%}
-------------------------------------------------------------------------------------------------------------------------
-  JavaScript: this section composes several custom elements
-------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------
+    JavaScript: this section composes several custom elements
+  ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
 <section class="ed-testimonial-with-rating">
@@ -57,7 +56,10 @@
           </header>
         {%- endif -%}
         {%- if section.settings.show_static_rating -%}
-          {% render 'ed-shop-rating', static_content: section.settings.static_content, rating_amount: section.settings.rating_integer %}
+          {% render 'ed-shop-rating',
+            static_content: section.settings.static_content,
+            rating_amount: section.settings.rating_integer
+          %}
         {%- endif -%}
       </div>
     </div>
@@ -69,20 +71,20 @@
               <div class="ed-testimonial" {{ block.shopify_attributes }}>
                 <div class="testimonial-item">
                   <div class="text-with-icons__icon-wrapper">
-                  <span class="static-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                  </span>
+                    <span class="static-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </span>
                   </div>
                   {%- if block.settings.title != blank or block.settings.content != blank -%}
                     <div class="text-with-icons__content-wrapper">
                       {%- if block.settings.content != blank -%}
                         <span class="testimonial-text">
-                        {{- block.settings.content -}}
-                      </span>
+                          {{- block.settings.content -}}
+                        </span>
                       {%- endif -%}
                       {%- if block.settings.title != blank -%}
                         <p class="heading heading--small">
@@ -135,53 +137,53 @@
       "default": "rgba(0,0,0,0)"
     },
     {
-    "type": "color",
-    "id": "star_color",
-    "label": "Star color",
-    "default": "#F9C784"
+      "type": "color",
+      "id": "star_color",
+      "label": "Star color",
+      "default": "#ffffff"
     },
     {
-    "type": "color",
-    "id": "border_color",
-    "label": "Border color",
-    "default": "#D3D3D3"
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#D3D3D3"
     },
     {
-    "type": "color",
-    "id": "checkmark_color",
-    "label": "Checkmark color",
-    "default": "#458eff"
+      "type": "color",
+      "id": "checkmark_color",
+      "label": "Checkmark color",
+      "default": "#458eff"
     },
     {
-    "type": "text",
-    "id": "subheading",
-    "label": "Subheading",
-    "default": "Subheading"
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Subheading"
     },
     {
-    "type": "text",
-    "id": "title",
-    "label": "Heading",
-    "default": "Testimonials"
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Testimonials"
     },
     {
-    "type": "checkbox",
-    "id": "show_static_rating",
-    "label": "Show Rating-Bar",
-    "default": false
+      "type": "checkbox",
+      "id": "show_static_rating",
+      "label": "Show Rating-Bar",
+      "default": false
     },
     {
-    "type": "text",
-    "id": "rating_integer",
-    "label": "Number of Rating",
-    "info": "Use only numbers and for decimal a dot instead comma.",
-    "default": "4.9"
+      "type": "text",
+      "id": "rating_integer",
+      "label": "Number of Rating",
+      "info": "Use only numbers and for decimal a dot instead comma.",
+      "default": "4.9"
     },
     {
-    "type": "text",
-    "id": "static_content",
-    "label": "Static Rating",
-    "default": " / 5.0 (86 Bewertungen)"
+      "type": "text",
+      "id": "static_content",
+      "label": "Static Rating",
+      "default": " / 5.0 (86 Bewertungen)"
     }
   ],
   "presets": [

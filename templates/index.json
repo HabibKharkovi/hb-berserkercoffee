@@ -1,106 +1,81 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "hb_banner_d6b8b6": {
+      "type": "hb-banner",
       "blocks": {
-        "e19cc4cd-ab70-47dd-9575-cb14beb1fdb4": {
-          "type": "image",
+        "tab_QUbT48": {
+          "type": "tab",
           "settings": {
-            "text_position": "middle_center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "tab_icon": "shopify:\/\/shop_images\/Group_6.svg",
+            "desk_width": 53,
+            "mobile_width": 23,
+            "tab_text": "Brewing",
+            "tab_url": "shopify:\/\/collections\/kaffee"
           }
         },
-        "slide-1": {
-          "type": "image",
-          "disabled": true,
+        "tab_Mt8Q8z": {
+          "type": "tab",
           "settings": {
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "tab_icon": "shopify:\/\/shop_images\/Group_7.svg",
+            "desk_width": 54,
+            "mobile_width": 23,
+            "tab_text": "Brewing",
+            "tab_url": "shopify:\/\/collections\/kaffee"
+          }
+        },
+        "tab_HTbgmk": {
+          "type": "tab",
+          "settings": {
+            "tab_icon": "shopify:\/\/shop_images\/Group_8.svg",
+            "desk_width": 80,
+            "mobile_width": 40,
+            "tab_text": "Brewing",
+            "tab_url": "shopify:\/\/collections\/kaffee"
+          }
+        },
+        "tab_z7NNn7": {
+          "type": "tab",
+          "settings": {
+            "tab_icon": "shopify:\/\/shop_images\/Group_9.svg",
+            "desk_width": 65,
+            "mobile_width": 27,
+            "tab_text": "Brewing",
+            "tab_url": "shopify:\/\/collections\/kaffee"
+          }
+        },
+        "tab_Kc4pAz": {
+          "type": "tab",
+          "settings": {
+            "tab_icon": "shopify:\/\/shop_images\/Group_6.svg",
+            "desk_width": 53,
+            "mobile_width": 23,
+            "tab_text": "Brewing",
+            "tab_url": "shopify:\/\/collections\/kaffee"
           }
         }
       },
       "block_order": [
-        "e19cc4cd-ab70-47dd-9575-cb14beb1fdb4",
-        "slide-1"
+        "tab_QUbT48",
+        "tab_Mt8Q8z",
+        "tab_HTbgmk",
+        "tab_z7NNn7",
+        "tab_Kc4pAz"
       ],
       "settings": {
-        "activate_search_bar": false,
-        "search_bar_background": "#f5f5f5",
-        "search_bar_border": "rgba(0,0,0,0)",
-        "search_bar_style": "20px",
-        "section_height": "large",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
-      }
-    },
-    "1663059588dc8a136b": {
-      "type": "ed-story-icon-slider",
-      "blocks": {
-        "f348ff2c-5aa0-48f7-9e66-ed5fdaa8b6b3": {
-          "type": "story-item",
-          "settings": {
-            "link": "shopify:\/\/collections\/brewing",
-            "title": "Brewing",
-            "svg_story_icon": ""
-          }
-        },
-        "story_item_H7LpM7": {
-          "type": "story-item",
-          "settings": {
-            "link": "shopify:\/\/collections\/bundles",
-            "title": "Bundles",
-            "svg_story_icon": ""
-          }
-        },
-        "4ab0fe92-36d2-4509-bc21-11521ede0657": {
-          "type": "story-item",
-          "settings": {
-            "link": "shopify:\/\/collections\/kaffee",
-            "title": "Kaffee",
-            "svg_story_icon": ""
-          }
-        },
-        "story_item_TAeAbU": {
-          "type": "story-item",
-          "settings": {
-            "link": "shopify:\/\/collections\/merch",
-            "title": "Merche",
-            "svg_story_icon": ""
-          }
-        }
-      },
-      "block_order": [
-        "f348ff2c-5aa0-48f7-9e66-ed5fdaa8b6b3",
-        "story_item_H7LpM7",
-        "4ab0fe92-36d2-4509-bc21-11521ede0657",
-        "story_item_TAeAbU"
-      ],
-      "settings": {
-        "section_story_icon_slider": "show_bubbles",
-        "stories_bg_color": "#ffffff",
-        "stories_text_color": "#0d0d0d"
+        "bg_image": "shopify:\/\/shop_images\/home-banner.png",
+        "title": "Kaffee, gemacht für die Schlachten des Alltages",
+        "btn_label": "Jetzt entdecken",
+        "btn_url": "",
+        "btn_type": "large"
       }
     },
     "featured-collections": {
@@ -133,8 +108,64 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "hb_icon_with_text_YDk3KT": {
+      "type": "hb-icon-with-text",
+      "blocks": {
+        "select_icon_TXfCXG": {
+          "type": "select_icon",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Group_12.png",
+            "title": "REIN NATÜRLICH",
+            "description": "Unabhängig Schadstoffgeprüft",
+            "max_width": 55,
+            "max_width_mobile": 37
+          }
+        },
+        "select_icon_KaApk7": {
+          "type": "select_icon",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Group_2362.png",
+            "title": "ANTI-SCHWACH-GARANTIE",
+            "description": "Stärkster Kaffee. Garantiert",
+            "max_width": 55,
+            "max_width_mobile": 38
+          }
+        },
+        "select_icon_4d37Q8": {
+          "type": "select_icon",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Vector.png",
+            "title": "SCHNELLE LIEFERUNG",
+            "description": "In 1-2 Tagen bei dir",
+            "max_width": 76,
+            "max_width_mobile": 51
+          }
+        },
+        "select_icon_gCXXUF": {
+          "type": "select_icon",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/Group_13.png",
+            "title": "Benefit",
+            "description": "Lorem ipsum dolor sit amet, consectetur.",
+            "max_width": 76,
+            "max_width_mobile": 55
+          }
+        }
+      },
+      "block_order": [
+        "select_icon_TXfCXG",
+        "select_icon_KaApk7",
+        "select_icon_4d37Q8",
+        "select_icon_gCXXUF"
+      ],
+      "settings": {
+        "padding_top": 75,
+        "padding_bottom": 96
+      }
+    },
     "c8717841-d1a6-4fa3-b1b9-945248ec478a": {
       "type": "ed-icon-title-section",
+      "disabled": true,
       "settings": {
         "background_product_facts": "",
         "background_box_product_facts": "",
@@ -179,6 +210,7 @@
       "block_order": [
         "166308844894eb86a9-0"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "background_type": "full_width",
@@ -211,6 +243,7 @@
       "block_order": [
         "16630884757349b90e-0"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "background_type": "full_width",
@@ -224,8 +257,75 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "hb_review_section_cyepkC": {
+      "type": "hb-review-section",
+      "blocks": {
+        "review_item_icaGDR": {
+          "type": "review-item",
+          "settings": {
+            "name_text": "Johanna",
+            "inner_title": "BERSERKER COFFEE",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "review_item_ktYJ9X": {
+          "type": "review-item",
+          "settings": {
+            "name_text": "Johanna",
+            "inner_title": "BERSERKER COFFEE",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "review_item_bAK4BW": {
+          "type": "review-item",
+          "settings": {
+            "name_text": "Johanna",
+            "inner_title": "BERSERKER COFFEE",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "review_item_TtETp3": {
+          "type": "review-item",
+          "settings": {
+            "name_text": "Johanna",
+            "inner_title": "BERSERKER COFFEE",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "review_item_X6ETrg": {
+          "type": "review-item",
+          "settings": {
+            "name_text": "Johanna",
+            "inner_title": "BERSERKER COFFEE",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "review_item_GqXDwA": {
+          "type": "review-item",
+          "settings": {
+            "name_text": "Johanna",
+            "inner_title": "BERSERKER COFFEE",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_item_icaGDR",
+        "review_item_ktYJ9X",
+        "review_item_bAK4BW",
+        "review_item_TtETp3",
+        "review_item_X6ETrg",
+        "review_item_GqXDwA"
+      ],
+      "settings": {
+        "main_title": "Das sagen unsere kunden",
+        "rating_title": "Hervorragend",
+        "rating_text": "<p><strong>4,77<\/strong> basierend auf <strong>4.315<\/strong> Bewertungen<\/p>"
+      }
+    },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "subheading": "Jetzt 10% Rabatt sichern",
@@ -237,15 +337,71 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
+    },
+    "hb_quiz_section_B9i3DA": {
+      "type": "hb-quiz-section",
+      "settings": {
+        "title": "Welcher kaffee passt zu dir?",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+        "btn_label": "Jetzt herausfinden",
+        "btn_url": "",
+        "btn_type": "large",
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-07-30_230943.png",
+        "overlay_text": "quiz",
+        "mobile_image": "shopify:\/\/shop_images\/Screenshot_2024-07-30_231146.png",
+        "full_image": false
+      }
+    },
+    "hb_image_with_text_fdYLPx": {
+      "type": "hb-image-with-text",
+      "blocks": {
+        "block_b7Aeqy": {
+          "type": "block",
+          "settings": {
+            "hb_image": "shopify:\/\/shop_images\/Berserker-Coffee-Kaffee-Collection_800x_png.png",
+            "hb_title": "Beserker Coffee Co.",
+            "hb_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis<\/p>",
+            "image_right": false
+          }
+        },
+        "block_YAbdwN": {
+          "type": "block",
+          "settings": {
+            "hb_image": "shopify:\/\/shop_images\/Berserker-Coffee-Merch-Kollektion_800x_jpg.png",
+            "hb_title": "über uns",
+            "hb_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis<\/p>",
+            "image_right": true
+          }
+        }
+      },
+      "block_order": [
+        "block_b7Aeqy",
+        "block_YAbdwN"
+      ],
+      "settings": {
+      }
+    },
+    "hb_newsletter_WqBig8": {
+      "type": "hb-newsletter",
+      "settings": {
+        "title": "Erhalte 10 % RABATT auf deine erste Bestellung, ab 50 € Bestellwert.",
+        "text": "Melde dich hier für unseren Newsletter an und erfahre als Erstes von Aktionen und Produktneuheiten! Deine Daten sind sicher und werden nicht an Dritte weitergegeben.  Der Newsletter ist jederzeit abbestellbar.",
+        "btn_label": "anmelden",
+        "btn_type": "small"
+      }
     }
   },
   "order": [
-    "slideshow",
-    "1663059588dc8a136b",
+    "hb_banner_d6b8b6",
     "featured-collections",
+    "hb_icon_with_text_YDk3KT",
     "c8717841-d1a6-4fa3-b1b9-945248ec478a",
     "16630884481b6274c4",
     "16630884756eac5fb5",
-    "newsletter"
+    "hb_review_section_cyepkC",
+    "newsletter",
+    "hb_quiz_section_B9i3DA",
+    "hb_image_with_text_fdYLPx",
+    "hb_newsletter_WqBig8"
   ]
 }

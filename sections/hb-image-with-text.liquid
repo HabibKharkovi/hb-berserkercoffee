@@ -1,0 +1,77 @@
+{{ 'hb-image-with-text.css' | asset_url | stylesheet_tag }}
+
+<div class="hb_image_with_text">
+  <div class="hb_image_with_text__wrapper">
+    {% for block in section.blocks %}
+      {% if block.type == 'block' %}
+        <div class="hb_image_with_text__grid {% if block.settings.image_right %}image--right{% endif %}">
+          {% if block.settings.hb_image != blank %}
+            <div class="hb_image_with_text__row--primary">
+              <div class="hb_container">
+                <div class="hb_image_with_text__image">
+                  <img src="{{ block.settings.hb_image |  image_url: width: "500x" }}" alt="">
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          {% if block.settings.hb_title != blank or block.settings.hb_text != blank %}
+            <div class="hb_image_with_text__row--secondary">
+              <div class="hb_image_with_text__inner_text">
+                <h2 class="hb_image_with_text__title">{{ block.settings.hb_title }}</h2>
+                <div class="hb_image_with_text__text">{{ block.settings.hb_text }}</div>
+              </div>
+              <div class="border-imgae">
+                <img
+                  src="https://cdn.shopify.com/s/files/1/0040/7089/9776/files/Border_0fd780f1-5b20-4b69-89f1-6a0284a005a6.png?v=1722943622"
+                  alt=""
+                >
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Hb Image With Text",
+  "blocks": [
+    {
+      "name": "Block",
+      "type": "block",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "hb_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "hb_title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "hb_text",
+          "label": "Text"
+        },
+        {
+          "type": "checkbox",
+          "id": "image_right",
+          "label": "Image Right",
+          "default": false
+        }
+      ]
+    }
+  ],
+  "settings": [],
+  "presets": [
+    {
+      "name": "Hb Image With Text"
+    }
+  ]
+}
+{% endschema %}

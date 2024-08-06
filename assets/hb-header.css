@@ -1,0 +1,52 @@
+.shopify-section--header {
+    z-index: 2 !important;
+}
+.hb_header .header__wrapper {
+    padding:0;
+    position: relative;
+}
+.hb_header.header--bordered:not(.header--transparent) {
+    box-shadow: unset !important;
+}
+.hb_header {
+    background-color: #F1ECDA;
+    border-block: 4px solid #C0A97D;
+}
+.hb_header .header__linklist-link {
+    display: block;
+    font-family: var(--font-norse);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.09;
+    color: var(--color-black);
+    letter-spacing: 0;
+}
+.hb_header .header__logo-link,
+.hb_header .header__logo-image {
+    margin: -31px 0;
+}
+.hb_header .tap-area:before {
+    content: unset;
+}
+.hb_header .header__cart-count  {
+    right: -9px;
+    top: -5px;
+}
+
+@media screen and (max-width:767px) {
+    .hb_header .header__icon-list a[href="/account/login"].hidden-phone {
+        display: block !important;
+    }
+    .hb_header .header__logo-link, .hb_header .header__logo-image {
+        margin: -14px 0;
+    }
+    .hb_header .header__icon-wrapper {
+        width: 24px;
+        height: 24px;
+    }
+    .hb_header .header__icon-wrapper svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+}

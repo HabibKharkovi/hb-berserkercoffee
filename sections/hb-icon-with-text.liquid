@@ -1,0 +1,136 @@
+{{ 'hb-icon-with-text.css' | asset_url | stylesheet_tag }}
+<div class="hb_icon-wth-text" js-hb-icon-with-text>
+  <div class="hb-container">
+    <div class="hb-wrapper">
+      {%- render 'hb-tabs-icons', section: section -%}
+    </div>
+  </div>
+</div>
+<script>
+  const iconWithText = document.querySelector('[js-hb-icon-with-text]');
+  if (iconWithText) {
+    const hbTabs = iconWithText.querySelectorAll('[js-hb-tabs]');
+    const hbTabContent = iconWithText.querySelectorAll('[js-hb-tab-content]');
+    const handleTabClick = (index) => {
+      hbTabs.forEach((tab) => {
+        tab.classList.remove('is-selected');
+      });
+      hbTabContent.forEach((content) => {
+        content.classList.remove('is-active');
+      });
+      hbTabs[index].classList.add('is-selected');
+      hbTabContent[index].classList.add('is-active');
+    };
+    const updateTabsForViewport = () => {
+      if (window.innerWidth <= 767) {
+        hbTabContent[0].classList.add('is-active');
+        hbTabs[0].classList.add('is-selected');
+
+        hbTabs.forEach((tab, index) => {
+          tab.addEventListener('click', () => handleTabClick(index));
+        });
+      }
+    };
+    updateTabsForViewport();
+    window.addEventListener('resize', updateTabsForViewport);
+  }
+</script>
+{%- style -%}
+  .hb_icon-wth-text {
+    padding-top:{{ section.settings.padding_top | times: 0.56 | round:0 }}px;
+    padding-bottom:{{ section.settings.padding_bottom | times: 0.34 | round:0}}px;
+  }
+    .hb_icon-wth-text .hb-icon {
+      width:var(--max-width );
+    }
+    @media screen and (max-width: 767px) {
+    .hb_icon-wth-text .hb-icon {
+      width:var(--max-width-mob );
+    }
+  }
+  @media screen and (min-width: 767px) {
+    .hb_icon-wth-text {
+    padding-top:{{ section.settings.padding_top }}px;
+    padding-bottom:{{ section.settings.padding_bottom }}px;
+  }
+  }
+{%- endstyle -%}
+{% schema %}
+{
+  "name": "HB Icon With Text",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 40,
+      "max": 80,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 40,
+      "max": 96,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Select Icon",
+      "type": "select_icon",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Select Icon"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "range",
+          "id": "max_width",
+          "min": 38,
+          "max": 76,
+          "step": 1,
+          "unit": "px",
+          "label": "Icon Width",
+          "default": 56
+        },
+        {
+          "type": "range",
+          "id": "max_width_mobile",
+          "min": 37,
+          "max": 56,
+          "step": 1,
+          "unit": "px",
+          "label": "Icon Width Mobile",
+          "default": 51
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "HB Icon With Text"
+    }
+  ]
+}
+{% endschema %}

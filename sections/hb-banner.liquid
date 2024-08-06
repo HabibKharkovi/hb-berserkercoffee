@@ -1,0 +1,153 @@
+{{ 'hb-banner.css' | asset_url | stylesheet_tag }}
+<div class="hb_banner">
+  {%- if section.settings.bg_image != blank -%}
+    <div class="hb-bg-image">
+      <img src="{{ section.settings.bg_image | image_url: width: '1200x' }}" alt="">
+    </div>
+  {%- endif -%}
+  <div class="hb-grid">
+    <div class="container">
+      <div class="hb-wrapper hb_flex">
+        <div class="hb-content hb_align-center">
+          {%- if section.settings.title != blank -%}
+            <div class="hb-content-innner">
+              {%- if section.settings.title != blank -%}
+                <h1 class="hb-h1">{{ section.settings.title }}</h1>
+              {%- endif -%}
+              {% render 'hb-btn',
+                btnType: section.settings.btn_type,
+                btnLabel: section.settings.btn_label,
+                btnUrl: section.settings.btn_url
+              %}
+            </div>
+          {%- endif -%}
+        </div>
+        <div class="hb-tabs">
+          <div class="hb-tab-wrapper hb_align-center">
+            {%- for block in section.blocks -%}
+              {%- if block.settings.tab_icon != blank -%}
+                <a href="{{ block.settings.tab_url }}" class="hb-tab-inner hb_center">
+                  {%- if block.settings.tab_icon != blank -%}
+                    <div
+                      class="hb-tab-icon"
+                      style="--desk-width:{{ block.settings.desk_width }}px; --mobile-width:{{ block.settings.mobile_width }}px"
+                    >
+                      <img src="{{- block.settings.tab_icon | image_url:width:"80x" -}}" alt="">
+                    </div>
+                  {%- endif -%}
+                  {%- if block.settings.tab_text != blank -%}
+                    <p class="hb-tab-text">{{ block.settings.tab_text }}</p>
+                  {%- endif -%}
+                </a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{%- style -%}
+  .hb_banner .hb-tab-icon {
+    width: var(--desk-width);
+  }
+  @media screen and (max-width: 767px) {
+    .hb_banner .hb-tab-icon {
+      width: var(--mobile-width);
+    }
+  }
+{%- endstyle -%}
+{% schema %}
+{
+  "name": "HB Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "btn_label",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button Url"
+    },
+    {
+      "type": "select",
+      "id": "btn_type",
+      "label": "Button Type",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Select Collection",
+      "type": "tab",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "tab_icon",
+          "label": "Select Icon"
+        },
+        {
+          "type": "range",
+          "id": "desk_width",
+          "min": 53,
+          "max": 80,
+          "step": 1,
+          "unit": "px",
+          "label": "Desktop Icon Width",
+          "default": 65
+        },
+        {
+          "type": "range",
+          "id": "mobile_width",
+          "min": 22,
+          "max": 40,
+          "step": 1,
+          "unit": "px",
+          "label": "Mobile Width",
+          "default": 26
+        },
+        {
+          "type": "text",
+          "id": "tab_text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "tab_url",
+          "label": "Collection Url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "HB Banner"
+    }
+  ]
+}
+{% endschema %}
